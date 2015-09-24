@@ -1,2 +1,2 @@
 # Carousel
-CodePath Week 1 Assignment: Carousel
+CodePath Week 2 Assignment: Carousel
