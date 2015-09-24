@@ -8,12 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		33B00C631BB379D3007853C2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33B00C621BB379D3007853C2 /* AppDelegate.swift */; };
-		33B00C651BB379D3007853C2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33B00C641BB379D3007853C2 /* ViewController.swift */; };
 		33B00C681BB379D3007853C2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 33B00C661BB379D3007853C2 /* Main.storyboard */; };
 		33B00C6A1BB379D3007853C2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 33B00C691BB379D3007853C2 /* Assets.xcassets */; };
 		33B00C6D1BB379D3007853C2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 33B00C6B1BB379D3007853C2 /* LaunchScreen.storyboard */; };
 		33B00C781BB379D3007853C2 /* CarouselTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33B00C771BB379D3007853C2 /* CarouselTests.swift */; };
 		33B00C831BB379D3007853C2 /* CarouselUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33B00C821BB379D3007853C2 /* CarouselUITests.swift */; };
+		33B00C911BB37CF3007853C2 /* Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33B00C901BB37CF3007853C2 /* Common.swift */; settings = {ASSET_TAGS = (); }; };
+		33B00C931BB37D75007853C2 /* IntroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33B00C921BB37D75007853C2 /* IntroViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		33B00C951BB38CAD007853C2 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33B00C941BB38CAD007853C2 /* SignInViewController.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +38,6 @@
 /* Begin PBXFileReference section */
 		33B00C5F1BB379D3007853C2 /* Carousel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Carousel.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		33B00C621BB379D3007853C2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		33B00C641BB379D3007853C2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		33B00C671BB379D3007853C2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		33B00C691BB379D3007853C2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		33B00C6C1BB379D3007853C2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +48,9 @@
 		33B00C7E1BB379D3007853C2 /* CarouselUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CarouselUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		33B00C821BB379D3007853C2 /* CarouselUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarouselUITests.swift; sourceTree = "<group>"; };
 		33B00C841BB379D3007853C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		33B00C901BB37CF3007853C2 /* Common.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Common.swift; sourceTree = "<group>"; };
+		33B00C921BB37D75007853C2 /* IntroViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IntroViewController.swift; sourceTree = "<group>"; };
+		33B00C941BB38CAD007853C2 /* SignInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,11 +101,13 @@
 		33B00C611BB379D3007853C2 /* Carousel */ = {
 			isa = PBXGroup;
 			children = (
-				33B00C621BB379D3007853C2 /* AppDelegate.swift */,
-				33B00C641BB379D3007853C2 /* ViewController.swift */,
 				33B00C661BB379D3007853C2 /* Main.storyboard */,
-				33B00C691BB379D3007853C2 /* Assets.xcassets */,
 				33B00C6B1BB379D3007853C2 /* LaunchScreen.storyboard */,
+				33B00C621BB379D3007853C2 /* AppDelegate.swift */,
+				33B00C921BB37D75007853C2 /* IntroViewController.swift */,
+				33B00C941BB38CAD007853C2 /* SignInViewController.swift */,
+				33B00C901BB37CF3007853C2 /* Common.swift */,
+				33B00C691BB379D3007853C2 /* Assets.xcassets */,
 				33B00C6E1BB379D3007853C2 /* Info.plist */,
 			);
 			path = Carousel;
@@ -255,8 +261,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				33B00C651BB379D3007853C2 /* ViewController.swift in Sources */,
+				33B00C951BB38CAD007853C2 /* SignInViewController.swift in Sources */,
+				33B00C911BB37CF3007853C2 /* Common.swift in Sources */,
 				33B00C631BB379D3007853C2 /* AppDelegate.swift in Sources */,
+				33B00C931BB37D75007853C2 /* IntroViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -483,6 +491,7 @@
 				33B00C891BB379D3007853C2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		33B00C8A1BB379D3007853C2 /* Build configuration list for PBXNativeTarget "CarouselTests" */ = {
 			isa = XCConfigurationList;
@@ -491,6 +500,7 @@
 				33B00C8C1BB379D3007853C2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		33B00C8D1BB379D3007853C2 /* Build configuration list for PBXNativeTarget "CarouselUITests" */ = {
 			isa = XCConfigurationList;
@@ -499,6 +509,7 @@
 				33B00C8F1BB379D3007853C2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
