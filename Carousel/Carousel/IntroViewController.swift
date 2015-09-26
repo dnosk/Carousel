@@ -21,8 +21,6 @@ class IntroViewController: UIViewController, UIScrollViewDelegate {
     @IBOutlet weak var createAccount: UIButton!
     @IBOutlet weak var signIn: UIButton!
     
-    var isBottom: Bool = false
-    
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -33,7 +31,6 @@ class IntroViewController: UIViewController, UIScrollViewDelegate {
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
     }
 
     func scrollViewWillBeginDragging(scrollView: UIScrollView) {
@@ -84,25 +81,4 @@ class IntroViewController: UIViewController, UIScrollViewDelegate {
         image5.transform = CGAffineTransformMakeRotation((10.0 * CGFloat(M_PI)) / 180.0)
         image6.transform = CGAffineTransformMakeRotation((-10.0 * CGFloat(M_PI)) / 180.0)
     }
-    
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
-    }
-    */
-    
-    /* 
-    
-    45 189
-    199 189
-    199 265
-    45 342
-    122 342
-    199 343
-    
-    */
 }

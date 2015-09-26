@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		330797D51BB660D80046D534 /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 330797D41BB660D80046D534 /* FeedViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		330797D71BB663960046D534 /* CreateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 330797D61BB663960046D534 /* CreateViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		330797D91BB6666B0046D534 /* TermsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 330797D81BB6666B0046D534 /* TermsViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		33368F321BB64A1C00470490 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33368F311BB64A1C00470490 /* WelcomeViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		33368F341BB65C2A00470490 /* ConversationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33368F331BB65C2A00470490 /* ConversationsViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		33368F361BB65DA500470490 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33368F351BB65DA500470490 /* SettingsViewController.swift */; settings = {ASSET_TAGS = (); }; };
 		33B00C631BB379D3007853C2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33B00C621BB379D3007853C2 /* AppDelegate.swift */; };
 		33B00C681BB379D3007853C2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 33B00C661BB379D3007853C2 /* Main.storyboard */; };
 		33B00C6A1BB379D3007853C2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 33B00C691BB379D3007853C2 /* Assets.xcassets */; };
@@ -36,6 +42,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		330797D41BB660D80046D534 /* FeedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FeedViewController.swift; path = ../FeedViewController.swift; sourceTree = "<group>"; };
+		330797D61BB663960046D534 /* CreateViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateViewController.swift; sourceTree = "<group>"; };
+		330797D81BB6666B0046D534 /* TermsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TermsViewController.swift; sourceTree = "<group>"; };
+		33368F311BB64A1C00470490 /* WelcomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
+		33368F331BB65C2A00470490 /* ConversationsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConversationsViewController.swift; sourceTree = "<group>"; };
+		33368F351BB65DA500470490 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SettingsViewController.swift; path = ../SettingsViewController.swift; sourceTree = "<group>"; };
 		33B00C5F1BB379D3007853C2 /* Carousel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Carousel.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		33B00C621BB379D3007853C2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		33B00C671BB379D3007853C2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -102,10 +114,16 @@
 			isa = PBXGroup;
 			children = (
 				33B00C661BB379D3007853C2 /* Main.storyboard */,
+				330797D61BB663960046D534 /* CreateViewController.swift */,
+				330797D81BB6666B0046D534 /* TermsViewController.swift */,
+				33368F331BB65C2A00470490 /* ConversationsViewController.swift */,
 				33B00C6B1BB379D3007853C2 /* LaunchScreen.storyboard */,
 				33B00C621BB379D3007853C2 /* AppDelegate.swift */,
 				33B00C921BB37D75007853C2 /* IntroViewController.swift */,
 				33B00C941BB38CAD007853C2 /* SignInViewController.swift */,
+				33368F311BB64A1C00470490 /* WelcomeViewController.swift */,
+				33368F351BB65DA500470490 /* SettingsViewController.swift */,
+				330797D41BB660D80046D534 /* FeedViewController.swift */,
 				33B00C901BB37CF3007853C2 /* Common.swift */,
 				33B00C691BB379D3007853C2 /* Assets.xcassets */,
 				33B00C6E1BB379D3007853C2 /* Info.plist */,
@@ -262,8 +280,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				33B00C951BB38CAD007853C2 /* SignInViewController.swift in Sources */,
+				33368F321BB64A1C00470490 /* WelcomeViewController.swift in Sources */,
+				330797D71BB663960046D534 /* CreateViewController.swift in Sources */,
+				33368F361BB65DA500470490 /* SettingsViewController.swift in Sources */,
+				330797D91BB6666B0046D534 /* TermsViewController.swift in Sources */,
 				33B00C911BB37CF3007853C2 /* Common.swift in Sources */,
+				33368F341BB65C2A00470490 /* ConversationsViewController.swift in Sources */,
 				33B00C631BB379D3007853C2 /* AppDelegate.swift in Sources */,
+				330797D51BB660D80046D534 /* FeedViewController.swift in Sources */,
 				33B00C931BB37D75007853C2 /* IntroViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
