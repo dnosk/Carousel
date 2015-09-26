@@ -5,7 +5,7 @@ CodePath Week 2 Assignment: Carousel
 
 Time Allocation
 --------------
-Competed in 7 hours
+Competed in 7.5 hours
 
 Project Requirements
 --------------
